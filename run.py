@@ -33,4 +33,4 @@ if __name__ == '__main__':
     """ 
     测试完成后自动启动报告服务
     """
-    os.system('allure serve reports/allure --clean')
+    #os.system('allure serve reports/allure --clean')

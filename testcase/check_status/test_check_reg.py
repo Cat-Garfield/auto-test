@@ -10,7 +10,7 @@ from common.log_hepler import log
 class TestCheckReg:
 
     @allure.story('reg-1')
-    def test_check1(self):
+    def test_check1(self, fixture_session):
         log.info('reg1 succ')
         assert True
 
